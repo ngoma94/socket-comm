@@ -21,5 +21,6 @@ configure_file(${SRC_DIR}/git_version.h.in
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
 add_executable(client ${SRC_DIR}/client.cpp)
+add_executable(server ${SRC_DIR}/server.cpp)
 
-install(TARGETS client DESTINATION bin)
+install(TARGETS client server DESTINATION bin)
