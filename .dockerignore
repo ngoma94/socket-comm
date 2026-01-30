@@ -1,0 +1,17 @@
+.gitignore
+build/
+build-native/
+build-aarch64/
+.vscode/
+.DS_Store
+*.o
+*.a
+*.so
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.swp
+*.swo
+*~
+.cache/
+.idea/
