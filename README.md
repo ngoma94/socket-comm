@@ -11,8 +11,8 @@ cmake --build build
 
 SYNOPSIS
 
-    server [OPTIONS] <socket-path>
-    client [OPTIONS] <socket-path> <COMMAND>
+    server <socket-path>
+    client <socket-path> <COMMAND>
 
 SERVER
 
